@@ -1,7 +1,7 @@
 /**
- * @param  {} ...args
- * @param  {} =>{letresponse={};if(args.length
- * @param  {} {letindex=0;args.forEach(arg=>{response[index]=arg;index++;}
+ * @function  {} returnAnObject
+ * @param  {string} letresponse
+ * @param  {string} letindex
  */
 
 const returnAnObject = (...args) => {
@@ -19,7 +19,7 @@ const returnAnObject = (...args) => {
 };
 
 /**
- * @param  {} arrayOfNumbers
+ * @function multiplyAllByTwo
  * @param  {} =>{letresponse;if(arrayOfNumbers.constructor.prototype===newArray([]
  * @param  {} .constructor.prototype
  * @param  {} {response=arrayOfNumbers.map((val=>val*2
