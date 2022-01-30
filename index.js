@@ -42,7 +42,7 @@ app.get('/', (req, res) => {
  * @param  {} (req
  * @param  {} res
  * @function comment
- * @param  {} {returnres.status(200
+ * @return 
  */
 
 app.post('/comment', (req, res) => {
