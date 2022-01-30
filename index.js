@@ -7,8 +7,8 @@ import cors from 'cors'
 import Sanitizer from 'sanitizer';
 
 /**
- * @param  {} import.meta.url
- * @param  {} constdirname=path.dirname(filename
+ * @function filename
+ * @function dirname
  */
 
 const filename = fileURLToPath(import.meta.url)
@@ -17,7 +17,7 @@ const port = 8070
 const host = '127.0.0.1'
 
 /**
- * @param  {true}} app.use(express.urlencoded({extended
+ * @function app
  */
 
 const app = express()
@@ -27,11 +27,8 @@ app.use(express.static(path.join(dirname, 'public')))
 app.use('/favicon.ico', express.static(path.join(dirname, 'public', 'images', 'favicon.png')))
 
 /**
- * @param  {} '/'
  * @param  {} (req
  * @param  {} res
- * @param  {} =>{res.sendFile('index.html'
- * @param  {path.join(dirname} {root
  */
 
 app.get('/', (req, res) => {
@@ -44,13 +41,8 @@ app.get('/', (req, res) => {
  * @param  {} '/comment'
  * @param  {} (req
  * @param  {} res
- * @param  {} =>{constcomment=Sanitizer.sanitize(req.body.message
- * @param  {} ;commentif(comment
+ * @function comment
  * @param  {} {returnres.status(200
- * @param  {} .send(comment
- * @param  {} }res.status(401
- * @param  {} .send('Accèsinterdit!'
- * @param  {} }
  */
 
 app.post('/comment', (req, res) => {
