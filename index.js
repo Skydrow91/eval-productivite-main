@@ -4,7 +4,6 @@ import { fileURLToPath } from 'url'
 import cors from 'cors'
 import Sanitizer from 'sanitizer';
 
-
 const filename = fileURLToPath(import.meta.url)
 const dirname = path.dirname(filename)
 const port = 8070
