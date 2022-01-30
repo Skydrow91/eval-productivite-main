@@ -1,5 +1,5 @@
 /**
- * @function  {} returnAnObject
+ * @function returnAnObject
  * @param  {string} letresponse
  * @param  {string} letindex
  */
@@ -20,11 +20,7 @@ const returnAnObject = (...args) => {
 
 /**
  * @function multiplyAllByTwo
- * @param  {} =>{letresponse;if(arrayOfNumbers.constructor.prototype===newArray([]
- * @param  {} .constructor.prototype
- * @param  {} {response=arrayOfNumbers.map((val=>val*2
- * @param  {'} ;console.log('arrayTimesTwo
- * @param  {} arrayTimesTwo
+ * @param  {number} letresponse
  */
 
 const multiplyAllByTwo = (arrayOfNumbers) => {
